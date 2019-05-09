@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.coolice.lottieissue.view.LottieView
+        android:id="@+id/lottieView2"
+        android:layout_width="193dp"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toTopOf="@+id/lottieView3"
+        app:layout_constraintEnd_toStartOf="@+id/lottieView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <com.github.coolice.lottieissue.view.LottieView
+        android:id="@+id/lottieView"
+        android:layout_width="194dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@id/lottieView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/lottieView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.coolice.lottieissue.view.LottieView
+        android:id="@+id/lottieView3"
+        android:layout_width="193dp"
+        android:layout_height="354dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lottieView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieView2"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <com.github.coolice.lottieissue.view.LottieView
+        android:id="@+id/lottieView4"
+        android:layout_width="194dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/lottieView3"
+        app:layout_constraintTop_toTopOf="@id/lottieView3" />
+</android.support.constraint.ConstraintLayout>
